@@ -18,10 +18,13 @@
         <p claas="error"> <?php echo $_GET['error'] ?></p>
     <?php } ?>
         <label>User Name</label>
-        <input type="text" name="username" placeholder="User Name"><br>
+        <input type="text" name="username" placeholder="User Name" required><br>
         <label>Password</label>
-        <input type="password" name="pass" placeholder="Password"><br>
+        <input type="password" name="pass" placeholder="Password" required><br>
         <input type="Submit" value="LogIn">
+
+        <p>Dont have an account? <a href="signup.php">SignUp</a></p>
+
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
