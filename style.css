@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(254, 220, 255);
+}
+.login-fieldset{
+    border: 2px solid black;
+    padding: 3%;
+    background-color: rgb(255, 215, 215);
+    width: 500px;
+    height: fit-content;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    display: flex;
+}
+table{
+    margin: 0 auto;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 1px;
+}
+.popup-table{
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1px;
+}
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+label,p,h1,h2{
+    font-family: Verdana;
+}
+.form-text{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 7px;
+    margin: 0;
+    font-family: Verdana;
+    border-radius: 10px;
+}
+.form-submit-btn{
+    font-family: Verdana;
+    padding: 6px;
+    margin: 10px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.form-submit-btn:hover, .form-submit-btn:focus{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+.error{
+    border: 1px solid rgb(255, 43, 43);
+    background-color: rgb(255, 119, 119);
+    color: rgb(169, 0, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Verdana;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    font-weight: bold;
+}
+#error{
+    border: 1px solid rgb(255, 43, 43);
+    background-color: rgb(255, 119, 119);
+    color: rgb(169, 0, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Verdana;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    font-weight: bold;
+}
+.done-msg{
+    border: 1px solid rgb(0, 141, 0);
+    background-color: rgb(127, 255, 127);
+    color: rgb(0, 83, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Verdana;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    font-weight: bold;
+}
+#done-msg{
+    border: 1px solid rgb(0, 141, 0);
+    background-color: rgb(127, 255, 127);
+    color: rgb(0, 83, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Verdana;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    font-weight: bold;
+}
+.choose-type{
+    border: 1px solid black;
+    background-color: rgb(197, 219, 255);
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: auto;
+    padding: 3%;
+}
+.choose-table{
+    margin: 0 auto; 
+    width: fit-content;
+}
